@@ -12,10 +12,11 @@ cask "macmonitor" do
   app "MacMonitor.app"
 
   caveats <<~EOS
-    MacMonitor is not notarized yet. If it does not open, install with:
-      brew install --cask ishaanpilar/tap/macmonitor --no-quarantine
-    or remove quarantine after install:
+    MacMonitor is not notarized yet, so macOS quarantines it. Clear the flag once after install:
+
       xattr -dr com.apple.quarantine "/Applications/MacMonitor.app"
+
+    (Or open it once, then allow it in System Settings > Privacy & Security > Open Anyway.)
   EOS
 
   zap trash: [
