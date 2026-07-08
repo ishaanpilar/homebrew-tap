@@ -1,6 +1,6 @@
 cask "macmonitor" do
-  version "1.0.0"
-  sha256 "e21ca50856b6af21e3582a7a37715901b9daa29a0d5f272ed98cc268d77760b1"
+  version "1.1.0"
+  sha256 "f3a05ed0a8ed71c5e9d684d718837f026a25e5915f2f6a6744a4afe4e5e597c2"
 
   url "https://github.com/ishaanpilar/MacMonitor/releases/download/v#{version}/MacMonitor-#{version}.dmg"
   name "MacMonitor"
