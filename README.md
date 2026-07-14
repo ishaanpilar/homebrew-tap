@@ -20,7 +20,7 @@ brew install --cask ishaanpilar/tap/arduino-serial-namer
 xattr -dr com.apple.quarantine "/Applications/Arduino Serial Namer.app"
 ```
 
-## [WhereFrom](https://github.com/ishaanpilar/WhereFrom)
+## [WhereFrom](https://github.com/ishaanpilar/MacOSWhereFrom)
 
 Menu-bar tool that surfaces where your files came from (the origin URL macOS
 hides), then lets you triage, group, find duplicates, and organize them — all
