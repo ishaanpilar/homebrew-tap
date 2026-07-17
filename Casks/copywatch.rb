@@ -1,6 +1,6 @@
 cask "copywatch" do
-  version "1.3.0"
-  sha256 "7d4999473582e93f60f682ac585ed2fcda2362e5b8014b2816ba4e7e25ebbdda"
+  version "1.5.0"
+  sha256 "7f059d2382b1a94537e53020802510af31c68fb423af9cf895748490d9ff3172"
 
   url "https://github.com/ishaanpilar/CopyWatch/releases/download/v#{version}/CopyWatch-#{version}.dmg"
   name "CopyWatch"
